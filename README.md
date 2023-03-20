@@ -1,10 +1,4 @@
-# openfl-royale
-
-
-
-
-<br />
-<p align="center"><img src="assets/openfl.png"/></p>
+<p align="center"><img src="bin/demo.png"/></p>
 
 
 Introduction

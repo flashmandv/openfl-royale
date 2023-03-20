@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"as3mxml.sdk.framework": "i:\\PROJECTS\\LAN.bg\\CLIENTS\\build\\RoyaleBin\\royale-asjs"
+	}
+}

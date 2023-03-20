@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>OpenFL and Royale Application</title>
+	
+    <script type="text/javascript" src="./howler.js"></script>
+	<script type="text/javascript" src="./openfl.8.9.6-flashmandv.js"></script>
+	<script type="text/javascript" src="./actuate.js"></script>
+	<script type="text/javascript" src="./gsap.min.js"></script>
+	<script type="text/javascript" src="./Main.js"></script>
+	
+	<script>
+		var flash = openfl;
+	</script>
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+	</style>
+${head}
+</head>
+<body>
+
+<div id="game-holder" align="center" style="width: 1000px; height: 600px">
+GAME WILL GO HERE
+</div>
+
+<!-- $ { b o d y }  -->
+<script type="text/javascript">
+	canvas = document.querySelector('canvas');
+	var myFont = new FontFace('COMPUTER Robot', 'url(assets/COMPUTERRobot.ttf) format("truetype")');
+	
+	myFont.load().then(function(font){
+	  document.fonts.add(font);
+	});
+	new Main();
+	
+</script>
+
+
+</body>
+</html>

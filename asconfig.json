@@ -1,0 +1,34 @@
+{
+  "config": "js", //js | flex | air..
+  "type": "app", //app or lib
+  "compilerOptions": {
+      "debug": true,
+      "output": "./",
+      "html-template": "index.template.html",
+      "source-path": [
+          "src"
+      ],
+      "external-library-path": [
+        "libs/openfl.swc"//taken from "node_modules/openfl/dist/openfl.swc"
+      ], 
+      /*"theme": "${royalelib}/themes/JewelTheme/src/main/resources/defaults.css",
+      "library-path": [
+      "${royalelib}/js/libs/MXRoyaleJS.swc",
+      "${royalelib}/js/libs/SparkRoyaleJS.swc"
+      ],*/
+      "js-library-path": [
+          "${royalelib}/js/libs/LanguageJS.swc",
+          "${royalelib}/js/libs/ReflectionJS.swc"
+          
+      ],
+      "targets": [
+          "js" //one of 'SWF', 'JSRoyale', 'JSRoyaleCordova', 'JS', 'JSNode', 'JSNodeModule'
+      ]
+  },
+  "files":
+  [
+      "src/Main.as"
+  ],
+  "additionalOptions": "-warnings=false -allow-dynamic-bindings -js-dynamic-access-unknown-members=true --verbose", //--verbose
+  "mainClass": "Main"
+}

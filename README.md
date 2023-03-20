@@ -1,5 +1,4 @@
-<p align="center"><img src="bin/demo.png"/></p>
-
+<br />
 
 Introduction
 ============
@@ -48,6 +47,8 @@ This will convert the swf file to usable bundle package.
 You need have to go inside the bin/js-debug/assets.bundle folder and extract the produced assets.zip file in the same folder
 
 ### 5. The npm start command already launched your browser with http://localhost:3000/ so simply reload it so the demo game can load the MovieClip assets
+<br>
+<p align="center"><img src="bin/demo.png"/></p>
 
 
 Known Issues
